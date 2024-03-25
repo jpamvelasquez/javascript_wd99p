@@ -45,19 +45,19 @@ let height = prompt("Enter your height");
 let bmi = weight / height ** 2;
 
 if (bmi >= 40) {
-  console.log("Morbidly Obese");
+  console.log(`Your BMI is  ${bmi.toFixed(2)}Morbidly Obese`);
 } else if (bmi >= 35 && bmi <= 39.9) {
-  console.log(`Your BMI is ${bmi}. Result Severely Obese`);
+  console.log(`Your BMI is ${bmi.toFixed(2)}. Result Severely Obese`);
 } else if (bmi >= 30 && bmi <= 34.9) {
-  console.log(`Your BMI is ${bmi}. Result Moderately Obese`);
+  console.log(`Your BMI is ${bmi.toFixed(2)}. Result Moderately Obese`);
 } else if (bmi >= 25 && bmi <= 29.9) {
-  console.log(`Your BMI is ${bmi}. Result Overweight`);
+  console.log(`Your BMI is ${bmi.toFixed(2)}. Result Overweight`);
 } else if (bmi >= 18.5 && bmi <= 24.9) {
-  console.log(`Your BMI is ${bmi}. Result Normal Weight`);
+  console.log(`Your BMI is ${bmi.toFixed(2)}. Result Normal Weight`);
 } else if (bmi >= 16 && bmi <= 18.4) {
-  console.log(`Your BMI is ${bmi}. Result Underweight`);
+  console.log(`Your BMI is ${bmi.toFixed(2)}. Result Underweight`);
 } else if (bmi <= 16) {
-  console.log(`Your BMI is ${bmi}. Result Severly Underweight`);
+  console.log(`Your BMI is ${bmi.toFixed(2)}. Result Severly Underweight`);
 } else {
   console.log("Invalid BMI");
 }

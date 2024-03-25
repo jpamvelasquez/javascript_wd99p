@@ -1,5 +1,5 @@
-let min = prompt("Enter First Number");
-let max = prompt("Enter Second Number");
+let min = prompt("Enter Min Number");
+let max = prompt("Enter Max Number");
 
 for (let x = min; x <= max; x++) {
   console.log(x);

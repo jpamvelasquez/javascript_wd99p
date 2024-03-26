@@ -20,3 +20,15 @@ if (isNaN(min) || isNaN(max)) {
 } else {
   evenNum(min, max);
 }
+
+// function mySelf(mins, maxs) {
+//   if (mins > maxs) {
+//     return;
+//   }
+//   if (mins %2 ==0){
+//     console.log(min)
+//   }
+//   min++;
+//   mySelf(mins,maxs)
+// }
+//Coach Code
